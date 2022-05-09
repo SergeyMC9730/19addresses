@@ -4,7 +4,7 @@ base + 0x0047FD40 - void   __thiscall garageLayerCreateIcons   (void *, int, int
 base + 0x0047D790 - void   __fastcall garageLayerCreateTabs    (int *)
 base + 0x0047C5C0 - void   __fastcall garageLayerInit          (int *)
 base + 0x0047E100 - void   __thiscall garageLayerSmthIsLocked  (int, int *)
-base + 0x0047D290 - void              garageLayerGetUserInfo   (void)
+base + 0x0047D290 - void   __thiscall garageLayerGetUserInfo   (void *)
 base + 0x00466B10 - bool   __thiscall garageLayerCheckIcon     (void *, int, int)
 base + 0x0047E070 - void   __thiscall garageLayerOnLockedIcon  (int, int *)
 base + 0x004274A0 - void * __thiscall createAdvancement        (void *, char *, int **, int **)
